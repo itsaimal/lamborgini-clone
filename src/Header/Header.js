@@ -3,7 +3,7 @@ import logo from "../image/logo.webp"
 
 function Header() {
     return (
-        <div className="w-full h-24 flex   bg-header">
+        <div className="w-full h-24 flex fixed z-20   bg-header">
             <img className="h-16 ml-14 mt-4" src={logo}/>
 
            
